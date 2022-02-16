@@ -52,8 +52,10 @@ public class EmployeeWageComputation {
     public static void main(String[] args) {
 	EmployeeWageComputation dMart = new EmployeeWageComputation("dmart", 20, 20, 100);
 	dMart.totalEmpWage(dMart.company, dMart.empRatePerHour, dMart.numOfWorkingDays, dMart.maxHoursPerMonth);
+	    
 	EmployeeWageComputation wipro = new EmployeeWageComputation("wipro", 20, 25, 100);
 	wipro.totalEmpWage(wipro.company, wipro.empRatePerHour, wipro.numOfWorkingDays, wipro.maxHoursPerMonth);
+	    
 	EmployeeWageComputation blz = new EmployeeWageComputation("BLZ", 25, 15, 100);
 	blz.totalEmpWage(blz.company, blz.empRatePerHour, blz.numOfWorkingDays, blz.maxHoursPerMonth);
 
